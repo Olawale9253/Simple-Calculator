@@ -11,7 +11,7 @@
     <div id="calculator">
         <input id="display" readonly>
         <div id="keys">
-            <button onclick="clearDisplay()" class="operator-btn">AC</button>
+            
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
@@ -28,6 +28,8 @@
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="calculateResult()">=</button>
             <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="clearDisplay()" class="operator-btn">AC</button>
+            <button onclick="deleteLastCharacter()" class="operator-btn">DEL</button>
             
 
 
